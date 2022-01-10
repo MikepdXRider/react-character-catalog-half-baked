@@ -1,0 +1,40 @@
+.list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 700px) {
+  .list {
+    grid: 1fr / 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .list {
+    grid: 1fr / 1fr 1fr;
+  }
+}
+
+.item {
+  list-style-type: none;
+  text-align: center;
+  padding: 5px;
+  background: var(--light-grey);
+  border-radius: 5px;
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.55);
+}
+
+.linkText {
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+}

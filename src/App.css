@@ -1,0 +1,17 @@
+:root {
+  --black: #111;
+  --dark-grey: #333;
+  --light-grey: #555;
+  --white: #eee;
+  --adobe: #ff6567
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+a {
+  color: var(--adobe);
+}
