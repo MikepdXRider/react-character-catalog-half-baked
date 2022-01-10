@@ -70,6 +70,7 @@ describe('Characters behavior', () => {
         screen.getByAltText(/loading characters/i);
 
         await screen.findByLabelText(/characters/i);
+        await screen.findByText('test-name');
     })
 })
 
