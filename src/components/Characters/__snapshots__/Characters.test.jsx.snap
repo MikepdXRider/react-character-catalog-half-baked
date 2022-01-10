@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`characters details snapshot 1`] = `
+<div>
+  <ul
+    aria-label="characters"
+    class="list"
+  >
+    <li
+      class="item"
+    >
+      <a
+        href="/characters/undefined"
+      >
+        <figure>
+          <img
+            alt="test-name"
+            class="image"
+            src="test-image"
+          />
+          <figcaption
+            class="linkText"
+          >
+            test-name
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
